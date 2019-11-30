@@ -1,0 +1,1 @@
+scp arch@redtraktor.ru:~/ovpn-docker-compose/keys/*.ovpn ./
