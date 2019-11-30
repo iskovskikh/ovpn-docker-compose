@@ -7,6 +7,6 @@
      echo "  revoke-ovpnuser.sh ovpnusername"
  else
  	echo "Revoke a $1 client certificate"
- 	docker-compose run --rm openvpn ovpn_revokeclient $CLIENTNAME remove
+ 	docker-compose run --rm openvpn ovpn_revokeclient $1 remove
     echo "$1 certificate revoked"
  fi
