@@ -9,8 +9,4 @@ services:
          - "1194:1194/udp"
         restart: always
         volumes:
-<<<<<<< HEAD
          - ./openvpn-data/conf:/etc/openvpn
-=======
-         - ./openvpn-data/conf:/etc/openvp
->>>>>>> 29a24366963a18deeeadb1bf3e1d1559ac06b164
